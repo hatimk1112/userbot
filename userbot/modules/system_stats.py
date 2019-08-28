@@ -17,7 +17,7 @@ from userbot.events import register
 
 
 # ================= CONSTANT =================
-DEFAULTUSER = uname().node
+DEFAULTUSER = "@ARNAB431"
 # ============================================
 
 
@@ -135,8 +135,8 @@ async def amireallyalive(alive):
     if not alive.text[0].isalpha() and alive.text[0] not in ("/", "#", "@", "!"):
         await alive.edit(
            "`"
-           "Guruji hum abhi zinda hai ;) \n\n"
-            f"Owned by pero @Spyderzzz sar \n"
+           "Guruji hum abhi zinda hai ;) \n"
+            f"User : {DEFAULTUSER}\n"
             "`"
             )
 
