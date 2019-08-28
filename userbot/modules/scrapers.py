@@ -89,7 +89,7 @@ async def carbon_api(e):
    await e.client.send_file(
          e.chat_id,
          file,
-         caption="[Spyder](https://t.me/spyderzzz/) Iz Gawd + peru af.",
+         caption="[Λгɳαɓ](https://t.me/Arnab431/) Iz Ultra Nub",
          force_document=True,
          reply_to=e.message.reply_to_msg_id,
          )
