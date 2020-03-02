@@ -55,7 +55,7 @@ API_KEY = os.environ.get("925201", None)
 API_HASH = os.environ.get("5dfce2f5ffda28a8111ae0f7768eb8a6", None)
 
 # Userbot Session String
-STRING_SESSION = os.environ.get("STRING_SESSION", None)
+STRING_SESSION = os.environ.get("1BVtsOMgBuy_Zab5R6RDQwqUkjnDcXNnzeqiEF9lHM-Y7e5aP77x1w-qgJquq6Ecj9ZUqgxYzyyBc2LfA99DHGgRe0f2RS4yFSDAkHYIq32rfPgTGklW0tATic07im6HAbRVWMDOhYcbm7omeMm3Ru0kvLzwyJ5VE-dV2s6rIWNY6mk_05Os4TyacIPavg6Dr8z6Ei-7kUfTuUekUuKEorRgl0WnqZTpLMHc4jQP99XwBKJzfkN07x78B7OIJKCNrybICDZzTqkEgRUV79_ErziovHJvTvfXgNSOoMqUZ73_gm1dJ8AbZTnexaeuGan3pw-mGwfWyQLqaZflp-Pn6MDE4re8CtlE=", None)
 
 # Logging channel/group configuration.
 BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", "0"))
@@ -65,7 +65,7 @@ BOTLOG = sb(os.environ.get(
 ))
 
 # Bleep Blop, this is a bot ;)
-PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
+PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "True"))
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(
